@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
  * main - function
- * Return: value is 0
+ * Return: return value is 0
  *
 */
 
 int main(void)
 {
 	int i;
-	for (i = 0; i <= 9; i++)
-	{
-		printf("%d\n", i);
-	}
 
-	return (0);
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	printf("\n");
+return (0);
 }
