@@ -4,16 +4,19 @@
  * Return: return value is 0
  *
 */
+#include <stdio.h>
+
 int main(void)
 {
-	char digit = '0';
+int i = 0;
 
-	while (digit <= '9')
-	{
-		putchar(digit);
-		digit++;
-	}
+	while (i < 10)
+		{
+			putchar(i + '0');
+			i++;
+		}
 
 	putchar('\n');
+
 return (0);
 }
