@@ -1,12 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - function
- * Description: Prints a value followed by a new line
- * Return: always 0
+ * main - Entery point
+ * Description: 'prints _putchar'
+ * Return: value is 0
 */
-
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 return (0);
 }
