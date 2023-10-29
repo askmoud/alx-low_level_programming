@@ -17,7 +17,11 @@ int main(int argc, char *argv[])
 	{
 	for (c = argv[argc]; *c; c++)
 	{
-		if (*c < '0' || *c > '9')
+		if (*c == 0)
+		{
+			return (0);
+		}
+		else if (*c < '0' || *c > '9')
 		{
 			printf("Error\n");
 			return (1);
