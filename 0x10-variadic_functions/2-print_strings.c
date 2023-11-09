@@ -2,13 +2,13 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_numbers - function that prints numbers
+ * print_strings - function that prints numbers
  * @separator: separator
  * @n: entery point
  * Return: numbers
 */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	int i = n;
 	char *str;
